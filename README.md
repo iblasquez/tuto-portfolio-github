@@ -26,7 +26,7 @@ Et laissez-vous guider :
 …. Et il est enfin temps de cliquer sur le bouton **create account**
 et de consulter votre **mail universitaire** pour récupérer le **code à saisir** 😉
 
-Comme le montre la copie d'écran ci-dessous, indiquez ensuite que vous êtes **seul** et que vous êtes **étudiant** :
+<!--Comme le montre la copie d'écran ci-dessous, indiquez ensuite que vous êtes **seul** et que vous êtes **étudiant** :
 
 ![utilisation seul et en tant qu'étudiant](./images/meStudent.png "Utilisation seul et en tant qu'étudiant")
 
@@ -40,7 +40,11 @@ Vous découvrez alors ce que vous permet votre compte Github :
 
 A cette étape-là, il est intéressant de cliquer sur **`Apply for your Github student benefits`**
 
-Vous arrivez sur la page <https://education.github.com/pack>
+Vous arrivez sur la page <https://education.github.com/pack>-->
+
+
+**Une fois le compte créé, cliquez sur le lien suivant :
+<https://education.github.com/pack>**
 
 Vous voyez sur cette page tous les outils auxquels vous pourrez avoir accès gratuitement en tant qu'étudiant (et notamment les fameux profuits de la suite JetBrains : IntelliJ pour Java, PhpStorm pour php, ...)
 

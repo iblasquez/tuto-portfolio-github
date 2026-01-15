@@ -72,7 +72,7 @@ Normalement vous êtes connectés, allez simplement sur : <https://github.com/>
 
 Vous rejoignez ainsi votre écran d'accueil (**Home**) qui vous affiche un certain nombre de rubriques et de cadres.
 
- Dans la rubrique **`Start Writing code`**, cliquez sur le bouton **`Create de l'encart` suivant :
+ Dans la rubrique **`Start Writing code`**, cliquez sur le bouton **`Create de l'encart`** suivant :
 **`Introduce yourself with a profile README.`**
 
 ![Introduce yourself with a profile README](./images/IntroduceYourselfREADME.png "Introduce yourself with a profile README")
@@ -136,7 +136,7 @@ Here are some ideas to get you started:
 
 ```
 
-- Notez bien qu'en markdown **`<!--`**et **`-->`** permettent de mettre du texte en **commentaires**.
+- Notez bien qu'en markdown **`<!--`** et **`-->`** permettent de mettre du texte en **commentaires**.
 
 - Déplacez la balise de fin de commentaires **`-->`** sur la première phrase de manière à avoir visualiser maintenant le contenu suivant :
 
@@ -166,7 +166,7 @@ Here are some ideas to get you started:
 
 ### 2.c Savoir commiter (*enregistrer*) un README
 
-- Pour ****enregistrer*** le contenu (et/ou les modifications apportées à ce fichier), vous devrez cliquer sur le bouton  à droite de votre écran :
+- Pour ***enregistrer*** le contenu (et/ou les modifications apportées à ce fichier), vous devrez cliquer sur le bouton  à droite de votre écran :
 
 ![Bouton Commit changes](./images/commitChanges.png "Bouton Commit changes")
 
@@ -194,6 +194,13 @@ Pour mettre à jour votre profil, il ne vous reste plus qu'à être créatif et/
 
 - Comme par exemple ceux d'(anciens) étudiants de DUT/BUT Informatique :
 
+  - <https://github.com/njacquet87>
+  - <http://github.com/GamoTune>
+  - <https://github.com/Anton-Hladyshev>
+  - <https://github.com/Vexcited>
+  - <https://github.com/Rayzeq>
+  - <https://github.com/hugoheml>
+  - <https://github.com/AzarioCossa>
   - <https://github.com/Axel230303>
   - <https://github.com/fortyup>  
   - <https://github.com/Maksew>
@@ -204,8 +211,7 @@ Pour mettre à jour votre profil, il ne vous reste plus qu'à être créatif et/
   - <https://github.com/ThomasBreil>
   - <https://github.com/Anthony-AUDOIN>
   - <https://github.com/FredericCanaud>
-  - <https://github.com/Jeremod-Dev>
-  - <https://github.com/Loannb8733>  
+
 
 - Ou de professionnels :
 

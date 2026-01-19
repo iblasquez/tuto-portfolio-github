@@ -70,12 +70,10 @@ Maintenant que votre compte github est créé et que vous êtes connecté à vot
 
 Normalement vous êtes connectés, allez simplement sur : <https://github.com/>
 
-Vous rejoignez ainsi votre écran d'accueil (**Home**) qui vous affiche un certain nombre de rubriques et de cadres.
-
- Dans la rubrique **`Start Writing code`**, cliquez sur le bouton **`Create de l'encart`** suivant :
-**`Introduce yourself with a profile README.`**
-
-![Introduce yourself with a profile README](./images/IntroduceYourselfREADME.png "Introduce yourself with a profile README")
+En haut à droite, cliquez sur le **`+`** et choisissez **New Repository**.  
+Dans **Repository name**, tapez exactement le même nom que vous avez donné à votre compte github (pour moi ce serait iblasquez).  
+Passez le **Add README** à **`ON`**
+Cliquez sur **`Create repository`**
 
 Cela créée automatiquement un fichier **`README.md`** dans un **repository** (considérons cela comme un répertoire, il s'agit en fait d'un dépôt) **du même nom que votre nom utilisateur** dont le contenu est le suivant (vous devez être sur la vue **Edit**).
 
@@ -93,6 +91,9 @@ You can click the Preview link to take a look at your changes.
 --->
 
 ```
+
+Rendez-vous sur l'adresse suivante https://github.com/votrecompte  pour visualiser votre profil sur la homepage de votre compte.
+Vous rejoignez ainsi votre écran d'accueil (**Home**) qui vous affiche un certain nombre de rubriques et de cadres.
 
 ... Continuez avec la [partie 2.c Savoir commiter (*enregistrer*) un README](#2c-savoir-commiter-enregistrer-un-readme) ...
 

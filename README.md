@@ -100,11 +100,11 @@ Si vous avez bien nommé votre repository, Github vous indiquera surement par le
 votreCompte/votreDepotNommeCommeVotreCompte** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 ```
 
-- Vérifiez que ce repository soit bien électionnez **`Public`**.
+- Vérifiez que ce repository soit bien **`Public`**.
 
 - Faites en sorte que **`add a README file`** soit bien activé (**ON**).
 
-- Terminez par  **`Create repository`** pour créer ce nouveau repository.
+- Terminez par **`Create repository`** pour créer ce nouveau repository.
 
 ![Create a new repository](./images/createNewRepository.png "Create a new repository")
 
@@ -132,6 +132,8 @@ You can click the Preview link to take a look at your changes.
 - Notez bien qu'en markdown **`<!--`** et **`-->`** permettent de mettre du texte en **commentaires**.
 
 ### 3.3 enregistrer les modifications apportées au README
+
+ Complétez le texte écrit dans le README en le personnalisant avec vos informations personnelles.
 
  Pour ***enregistrer*** le contenu (et/ou les modifications apportées à ce fichier), vous devrez cliquer sur le bouton  à droite de votre écran :
 

@@ -62,6 +62,13 @@ Puis à remplir le formulaire et à cliquer sur continue
 
 Et continuer à suivre les consignes ...
 
+## Bien vérifier que vous avez rejoint le programme Github Education
+
+Tout à gauche, cliquez sur l'**icone ronde de votre compte** afin de pouvoir sélectionner le menu **`Settings`**.  
+Une fois, le menu **`Settings`** ouvert, allez dans la rubrique **`Access`** et ouvrir **`Billing and licensing`**.
+A la fin de la rubrique **`Billing and licensing`**, cliquez sur **`Education benefits`** : c'est là que vous devez voir **`Approved`** pour confirmer que votre inscription à Github ClassRoom a bien été approuvée.
+
+
 ## 2. Personnaliser le profil de votre compte Github
 
 Maintenant que votre compte github est créé et que vous êtes connecté à votre compte github, vous allez pouvoir personnaliser le **profil de votre compte github** qui n'est autre qu'un **fichier `README`** lié à votre compte.

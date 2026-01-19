@@ -9,6 +9,10 @@ Vous allez donc commencer par créer votre compte GitHub.
 
 Pour cela, rendez-vous sur le site officiel : <https://github.com/>
 
+**Si vous avez déjà un compte github**, vous pouvez passer diretement à l'étape 2, mais avant vous devez absolument **ajouter votre adresse universitaire** à votre compte (il peut y avoir plusieurs adresses mails associées à un même compte).
+Pour cela, Tout à gauche, cliquez sur l'**icone ronde de votre compte** afin de pouvoir sélectionner le menu **`Settings`**.  
+Une fois, le menu **`Settings`** ouvert, allez dans la rubrique **`Email`** et dans **Add email address** ajouter votre adresse universitaire en `etu.unilim.fr`
+
 ## 1. Créer un compte Github
 
 Si vous n'avez pas encore de compte github, inscrivez-vous avec votre **adresse email universitaire**, cela vous permettra d'avoir des **avantages** avec le programme Github Education que nous rejoindrons d'ici quelques lignes ;-)
@@ -42,6 +46,7 @@ A cette étape-là, il est intéressant de cliquer sur **`Apply for your Github 
 
 Vous arrivez sur la page <https://education.github.com/pack>-->
 
+## 2. Rejoindre le programme Education de Github
 
 **Une fois le compte créé, cliquez sur le lien suivant :
 <https://education.github.com/pack>**
@@ -62,29 +67,54 @@ Puis à remplir le formulaire et à cliquer sur continue
 
 Et continuer à suivre les consignes ...
 
+`Pending` signifie que votre adhésion au programme éducation est ***en attente***.  
+Votre adhésion au programme Education ne sera effective que lorsque vous verrez *`Approved`*.  
+Si vous voyez *`Denied`*, vous devez **consulter votre mail universitaire** pour savoir quelle manipulation vous devez faire sur votre compte github pour que votre adhésion puisse être acceptée (bien souvent vous devez mettre en place une double authentification, écrire de manière explicite votre prénom et nom dans votre profil, renseigner des renseignements dans Billing, etc ...)
+Une fois les erreurs indiquées dans la mail corrigées, vous devez relancer une demande et recommencer cle processus jusqu'à ce que votre **`Pending`** se transforme en **`Approved`**.
+
 ## Bien vérifier que vous avez rejoint le programme Github Education
 
 Tout à gauche, cliquez sur l'**icone ronde de votre compte** afin de pouvoir sélectionner le menu **`Settings`**.  
 Une fois, le menu **`Settings`** ouvert, allez dans la rubrique **`Access`** et ouvrir **`Billing and licensing`**.
 A la fin de la rubrique **`Billing and licensing`**, cliquez sur **`Education benefits`** : c'est là que vous devez voir **`Approved`** pour confirmer que votre inscription à Github ClassRoom a bien été approuvée.
 
+## 3. Personnaliser le profil de votre compte Github
 
-## 2. Personnaliser le profil de votre compte Github
+### 3.1 Créer un nouveau repository
 
-Maintenant que votre compte github est créé et que vous êtes connecté à votre compte github, vous allez pouvoir personnaliser le **profil de votre compte github** qui n'est autre qu'un **fichier `README`** lié à votre compte.
+Maintenant que votre compte github est créé et que vous êtes connecté à votre compte github, vous allez pouvoir personnaliser le **profil de votre compte github**.
 
-### 2.a Si vous venez juste de créer votre compte github
+Pour cela, vous devez **créer un nouveau dépôt**.  
+Sous github on parle de **dépôt** (en français) ou de **repository** (en anglais).
 
-Normalement vous êtes connectés, allez simplement sur : <https://github.com/>
+Pour cela, dans la barre des icônes en haut à droite, cliquez sur sur  **`+`** puis sur **`New repository`**.
 
-En haut à droite, cliquez sur le **`+`** et choisissez **New Repository**.  
-Dans **Repository name**, tapez exactement le même nom que vous avez donné à votre compte github (pour moi ce serait iblasquez).  
-Passez le **Add README** à **`ON`**
-Cliquez sur **`Create repository`**
+![New repository](./images/newRepository.png "New repository")
 
-Cela créée automatiquement un fichier **`README.md`** dans un **repository** (considérons cela comme un répertoire, il s'agit en fait d'un dépôt) **du même nom que votre nom utilisateur** dont le contenu est le suivant (vous devez être sur la vue **Edit**).
+Nous allons créé un repository special.
+
+- **le nom de ce repository doit strictement être identique au nom de votre compte github.**  
+Si vous avez bien nommé votre repository, Github vous indiquera surement par le message suivant pourquoi ce repository est un repository spécial :
 
 ```markdown
+votreCompte/votreDepotNommeCommeVotreCompte** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```
+
+- Vérifiez que ce repository soit bien électionnez **`Public`**.
+
+- Faites en sorte que **`add a README file`** soit bien activé (**ON**).
+
+- Terminez par  **`Create repository`** pour créer ce nouveau repository.
+
+![Create a new repository](./images/createNewRepository.png "Create a new repository")
+
+### 3.2 Ajouter un README préformaté à ce repository special
+
+Cliquez maintenant sur le bouton vert **EDIT README** pour ajouter un fichier README et arriver sur la vue **Edit** qui vous donne un contenu similaire au cintenu suivant en **Markdown**
+
+```markdown
+
+### Hi there 👋
 
 - 👋 Hi, I'm @iblasquez
 - 👀 I'm interested in ...
@@ -99,129 +129,74 @@ You can click the Preview link to take a look at your changes.
 
 ```
 
-** Pour voir votre profil s'afficher sur la page d'accueil de votre profil : **  
-Cliquez sur l'**icone ronde de votre compte** et sélectionnez le menu **`Profile`** vous aménera directement sur la page d'accueil de votre compte github (https://github.com/votrecompte). C'est sur cette page que le profil que vous venez de rentrer doit s'afficher.
-
-
-... Continuez avec la [partie 2.c Savoir commiter (*enregistrer*) un README](#2c-savoir-commiter-enregistrer-un-readme) ...
-
-### 2.b Si vous aviez déjà un compte github
-
-- Connectez-vous à votre compte github puis **créez un nouveau dépôt**. Pour cela, cliquez sur **`New repository`** depuis le menu ci-contre obtenu après avoir cliqué sur  **`+`**.
-
-![New repository](./images/newRepository.png "New repository")
-
-- Comme indiqué ci-dessous, faites en sorte que le nom de votre dépôt (repository) soit strictement identique au nom de votre compte github.
-
-- Puis sélectionnez **`Public`** et **`add a README file`**
-
-- Et terminez par cliquer sur **`Create repository`** pour créer le dépôt.
-
-![Create a new repository](./images/createNewRepository.png "Create a new repository")
-
-- Un **fichier `README.md`** est alors automatiquement créé dans un **repository**
-(un dépôt) **du même nom que votre nom utilisateur**.
-
-- Pour accéder au contenu de ce `README`, cliquez sur le bouton **`Edit README`** pour arriver sur la vue **Edit** qui vous donne le contenu suivant en **Markdown**
-
-```markdown
-
-### Hi there 👋
-
-<!--
-**iblasquez/iblasquez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I'm currently working on ...
-- 🌱 I'm currently learning ...
-- 👯 I'm looking to collaborate on ...
-- 🤔 I'm looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-```
-
 - Notez bien qu'en markdown **`<!--`** et **`-->`** permettent de mettre du texte en **commentaires**.
 
-- Déplacez la balise de fin de commentaires **`-->`** sur la première phrase de manière à avoir visualiser maintenant le contenu suivant :
+### 3.3 enregistrer les modifications apportées au README
 
-```markdown
-
-### Hi there 👋
-
-<!--
-**iblasquez/iblasquez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. 
--->
-
-Here are some ideas to get you started:
-
-- 🔭 I'm currently working on ...
-- 🌱 I'm currently learning ...
-- 👯 I'm looking to collaborate on ...
-- 🤔 I'm looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-
-```
-
-... Continuez avec la [partie 2.c Savoir commiter (*enregistrer*) un README](#2c-savoir-commiter-enregistrer-un-readme) ...
-
-### 2.c Savoir commiter (*enregistrer*) un README
-
-- Pour ***enregistrer*** le contenu (et/ou les modifications apportées à ce fichier), vous devrez cliquer sur le bouton  à droite de votre écran :
+ Pour ***enregistrer*** le contenu (et/ou les modifications apportées à ce fichier), vous devrez cliquer sur le bouton  à droite de votre écran :
 
 ![Bouton Commit changes](./images/commitChanges.png "Bouton Commit changes")
-
-- Pour l'instant, laisser le fichier tel quel et cliquez simplement sur **`Commit changes`**.
 
 > 📢 Le commit est un ***enregistrement*** un peu spécial comme vous le verrez dans le cours sur les gestionnaires de version, qui **doit absolument contenir un message** qui indique ce qui est *commité* 📢
 
 ![Commit initial](./images/commitInitial.png "Commit initial")
 
-- Habituellement, comme indiqué sur la copie d'écran ci-dessus, pour le **premier commit **on utilise le message commit suivant **`commit initial`** en français ou (**`initial commit`** en anglais) tout dépend si vous souhaitez écrire votre présentation de profil en anglais ou en français 😉
-
 - Une fois le message de commit correctement renseigné, vous pouvez cliquer sur **`Commit changes`**.
 
-## 3. Visualiser le profil de votre compte Github
+## 4. Visualiser le profil de votre compte Github
 
-Votre profil est maintenant visible pour tout internaute arrivant sur votre compte github c-a-d sur la page rendez-vous sur : **`https://github.com/<votrenomutilisateur>`**   
-Depuis votre compte, vous pouvez afficher rapidement cette image à tout moment en procédant de la manière suivante : Cliquez sur l'**icone ronde de votre compte** et sélectionnez le menu **`Profile`**
+Votre profil est maintenant visible pour tout internaute arrivant sur votre compte github c-a-d sur la page rendez-vous sur : **`https://github.com/<votrenomutilisateur>`**
+Depuis votre compte, vous pouvez afficher rapidement cette image à tout moment en procédant de la manière suivante : Cliquez sur l'**icone ronde de votre compte** et sélectionnez le menu **`Profile`** vous amène directement à 'adresse **`https://github.com/<votrenomutilisateur>`**
 
 Par exemple, mon profil est visible sur <https://github.com/iblasquez> comme premier contenu de cette page, tout comme le vôtre sur votre page 😉
 
 ![Mon Portfolio](./images/myPortfolio.png "Mon Portfolio")
 
-## 4. Mettre à jour le profil de votre compte Github à la manière d'un portfolio
+## 5. Mettre à jour le profil de votre compte Github à la manière d'un portfolio
 
-Pour mettre à jour votre profil, il ne vous reste plus qu'à être créatif et/ou de vous inspirer de profils déjà existants sur github 😉
+### 5.1 Editer votre README
 
-- Comme par exemple ceux d'(anciens) étudiants de DUT/BUT Informatique :
+Pour mettre à jour votre profil, cliquez sur **Repository** dans la barre de menu en haut à gauche pour visualiser tous les repos que vous avez créés.
+Cliquez sur le repo qui contient votre profil (celui que nous venons juste de créer et qui porte le même nom que votre compte).  
 
-  - <https://github.com/njacquet87>
-  - <http://github.com/GamoTune>
-  - <https://github.com/Anton-Hladyshev>
-  - <https://github.com/Vexcited>
-  - <https://github.com/Rayzeq>
-  - <https://github.com/hugoheml>
-  - <https://github.com/AzarioCossa>
-  - <https://github.com/Axel230303>
-  - <https://github.com/fortyup>  
-  - <https://github.com/Maksew>
-  - <https://github.com/gaiailou>
-  - <https://github.com/NeikoStream>
-  - <https://github.com/nelpats>
-  - <https://github.com/ByrmGkcn>
-  - <https://github.com/ThomasBreil>
-  - <https://github.com/Anthony-AUDOIN>
-  - <https://github.com/FredericCanaud>
+Vous voyez le README, pour modifier son contenu, cliquez sur le petit stylo pour entrer dans le mode d'edition du README comme précédemment.
 
+### 5.2 Voir le code d'un README existant
+
+Vous ne savez pas quoi mettre dans votre README, inspirez-vous d'un README existant.
+
+Par exemple allez sur le profil suivant <https://github.com/njacquet87>
+
+- Cliquez sur le menu **Repositories**.
+Comme vous savez maintenant que le profil se trouve dans un dépôt qui a le même nom que le compte, dans la recherche `Find a repository`, tapez **`njacquet87`**
+
+- Cliquez sur le repository **`njacquet87`** pour l'ouvrir.
+
+- Cette fois-ci, ne cliquez pas sur le stylo !!!
+Mais cliquez sur le `README.md`.
+Vous voyez alors 3 boutons :  **Preview** **Code** et **Blame**.
+
+- Cliquez sur **Code** pour visualiser le code Markdown écrit dans ce fichier README et vous en inspirer.
+
+Pour meettre à jour votre profil, il ne vous reste plus qu'à être créatif et/ou de vous inspirer de profils déjà existants sur github, comme par exemple ceux d'(anciens) étudiants de DUT/BUT Informatique :
+
+- <https://github.com/njacquet87>
+- <http://github.com/GamoTune>
+- <https://github.com/Anton-Hladyshev>
+- <https://github.com/Vexcited>
+- <https://github.com/Rayzeq>
+- <https://github.com/hugoheml>
+- <https://github.com/AzarioCossa>
+- <https://github.com/Axel230303>
+- <https://github.com/fortyup>  
+- <https://github.com/Maksew>
+- <https://github.com/gaiailou>
+- <https://github.com/NeikoStream>
+- <https://github.com/nelpats>
+- <https://github.com/ByrmGkcn>
+- <https://github.com/ThomasBreil>
+- <https://github.com/Anthony-AUDOIN>
+- <https://github.com/FredericCanaud>
 
 - Ou de professionnels :
 
@@ -232,6 +207,14 @@ Pour mettre à jour votre profil, il ne vous reste plus qu'à être créatif et/
   - <https://github.com/aatwi>
 
 - et tous ceux que vous trouvez intéressant lors de votre navigation sur github ...
+
+### 5.3 Utiliser un générateur de profil github
+
+Pour personnaliser votre profil github, vous pouvez aussi, si vous le souhaitez, utiliser un générateur de profil.  
+
+Par exemple, n'hésitez pas jeter un petit coup d'oeil à **GPRM : GitHub Profile ReadMe Maker** à l'adresse suivante : <https://gprm.itsvg.in/> et à jouer avec 😉
+
+### 5.4 D'autres ressources pour personnaliser son profil github
 
 - N'oubliez pas les dépôts github intitulé ***`awesone`*** qui regroupent de nombreux liens vers d'autres dépôts sur une thématique donné.  
 Ainsi un dépôt nommé **`awesome-github-profile-readme`** regroupera un certain nombre de liens vers des ressources ou des des readme inspirants.  

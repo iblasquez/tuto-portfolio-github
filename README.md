@@ -99,8 +99,9 @@ You can click the Preview link to take a look at your changes.
 
 ```
 
-Rendez-vous sur l'adresse suivante https://github.com/votrecompte  pour visualiser votre profil sur la homepage de votre compte.
-Vous rejoignez ainsi votre écran d'accueil (**Home**) qui vous affiche un certain nombre de rubriques et de cadres.
+** Pour voir votre profil s'afficher sur la page d'accueil de votre profil : **  
+Cliquez sur l'**icone ronde de votre compte** et sélectionnez le menu **`Profile`** vous aménera directement sur la page d'accueil de votre compte github (https://github.com/votrecompte). C'est sur cette page que le profil que vous venez de rentrer doit s'afficher.
+
 
 ... Continuez avec la [partie 2.c Savoir commiter (*enregistrer*) un README](#2c-savoir-commiter-enregistrer-un-readme) ...
 
@@ -190,7 +191,8 @@ Here are some ideas to get you started:
 
 ## 3. Visualiser le profil de votre compte Github
 
-Votre profil est maintenant visible pour tout internaute arrivant sur votre compte github.  Pour vérifier, rendez-vous sur : **`https://github.com/<votrenomutilisateur>`**
+Votre profil est maintenant visible pour tout internaute arrivant sur votre compte github c-a-d sur la page rendez-vous sur : **`https://github.com/<votrenomutilisateur>`**   
+Depuis votre compte, vous pouvez afficher rapidement cette image à tout moment en procédant de la manière suivante : Cliquez sur l'**icone ronde de votre compte** et sélectionnez le menu **`Profile`**
 
 Par exemple, mon profil est visible sur <https://github.com/iblasquez> comme premier contenu de cette page, tout comme le vôtre sur votre page 😉
 

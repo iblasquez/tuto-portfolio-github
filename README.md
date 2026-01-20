@@ -56,13 +56,7 @@ Pour cela il ne vous reste plus qu'à cliquer sur le bouton suivant (**`Sign up 
 
 ![Bouton sign up for Student Developer Pack](./images/signUpButtonStudentDP.png "Bouton sign up for Student Developer Pack")
 
-puis
-
-![Bouton get student benefits](./images/getStudentBenefits.png "Bouton get student benefits")
-
-Puis à remplir le formulaire et à cliquer sur continue
-
-![Bouton continue](./images/continue.png "Bouton continue")
+puis cliquer sur le bouton vert **`Start an application`**
 
 Et continuer à suivre les consignes ...
 
@@ -127,6 +121,8 @@ You can click the Preview link to take a look at your changes.
 ```
 
 - Notez bien qu'en markdown **`<!--`** et **`-->`** permettent de mettre du texte en **commentaires**.
+
+Dans le `README` que vous avez sous les yeux, vérifiez bien que le texte que vous voulez afficher n'est pas entre **`<!--`** et **`-->`** si vous voulez le voir s'afficher dans votre profil.
 
 ### 3.3 Enregistrer les modifications apportées au `README`
 
